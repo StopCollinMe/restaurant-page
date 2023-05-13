@@ -59,6 +59,14 @@ li{
     display: none;
 }
 
-.active{
-    background-color: aqua;
-}
+.active {
+    background-color: #ccc;
+  }
+  
+  li:hover {
+    background-color: #ddd;
+  }
+  
+  li:active {
+    background-color: #bbb;
+  }

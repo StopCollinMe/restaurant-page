@@ -28,7 +28,6 @@ import { contact } from './contact';
     li1.classList.add('home');
     li2.classList.add('menu');
     li3.classList.add('contact');
-    li1.classList.add('active');
 
 li1.addEventListener('click', ()=>{
     li2.classList.remove('active');
