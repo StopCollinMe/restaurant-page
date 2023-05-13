@@ -59,14 +59,18 @@ li{
     display: none;
 }
 
-.active {
-    background-color: #ccc;
-  }
-  
-  li:hover {
+li{
+    cursor: pointer;
+}
+
+li:active{
+    background-color: grey;
+}
+
+li:hover {
     background-color: #ddd;
-  }
-  
-  li:active {
-    background-color: #bbb;
-  }
+}
+
+li:active {
+    background-color: grey;
+}

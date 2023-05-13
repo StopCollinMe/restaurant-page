@@ -30,8 +30,6 @@ import { contact } from './contact';
     li3.classList.add('contact');
 
 li1.addEventListener('click', ()=>{
-    li2.classList.remove('active');
-    li3.classList.remove('active');
     contentTag.innerHTML = '';
     addNav();
     pageLoad();
@@ -39,8 +37,6 @@ li1.addEventListener('click', ()=>{
 });
 
 li2.addEventListener('click', ()=>{
-    li1.classList.remove('active');
-    li3.classList.remove('active');
     contentTag.innerHTML = '';
     addNav();
     menu();
@@ -48,8 +44,6 @@ li2.addEventListener('click', ()=>{
 });
 
 li3.addEventListener('click', ()=>{
-    li1.classList.remove('active');
-    li2.classList.remove('active');
     contentTag.innerHTML = '';
     addNav();
     contact();
